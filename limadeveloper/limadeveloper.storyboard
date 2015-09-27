@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B17c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mSa-zX-pa4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Keyboard View Controller-->
+        <scene sceneID="6w8-H5-wYU">
+            <objects>
+                <viewController id="mSa-zX-pa4" customClass="KeyboardViewController" customModule="limadeveloper" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vR7-h8-g65"/>
+                        <viewControllerLayoutGuide type="bottom" id="8f6-JX-BSW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CMf-gY-GQe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="260"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="mdw-iO-9rP">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.58431372550000005" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="54y-BW-s73">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="arN-mS-5pC">
+                                        <rect key="frame" x="10" y="10" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <animations/>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="mSa-zX-pa4" id="wwp-fK-o8M"/>
+                                    <outlet property="delegate" destination="mSa-zX-pa4" id="aNA-R8-fDg"/>
+                                </connections>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goj-B3-xaI">
+                                <rect key="frame" x="8" y="222" width="46" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="w4n-nX-mS7"/>
+                                </constraints>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejB-Jd-pV1">
+                                <rect key="frame" x="266" y="222" width="46" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="HLk-m7-9zw"/>
+                                </constraints>
+                                <state key="normal" title="delete">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.0" green="0.58431372550000005" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="goj-B3-xaI" firstAttribute="top" secondItem="mdw-iO-9rP" secondAttribute="bottom" constant="2" id="RI7-to-7YM"/>
+                            <constraint firstItem="mdw-iO-9rP" firstAttribute="leading" secondItem="CMf-gY-GQe" secondAttribute="leading" id="al6-XD-GQS"/>
+                            <constraint firstItem="goj-B3-xaI" firstAttribute="leading" secondItem="CMf-gY-GQe" secondAttribute="leadingMargin" constant="-8" id="fb7-TI-g8P"/>
+                            <constraint firstItem="ejB-Jd-pV1" firstAttribute="baseline" secondItem="goj-B3-xaI" secondAttribute="baseline" id="nTF-Fc-lCz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ejB-Jd-pV1" secondAttribute="trailing" constant="-8" id="oXY-Nw-Ryo"/>
+                            <constraint firstItem="mdw-iO-9rP" firstAttribute="top" secondItem="vR7-h8-g65" secondAttribute="bottom" id="rwg-At-uef"/>
+                            <constraint firstAttribute="trailing" secondItem="mdw-iO-9rP" secondAttribute="trailing" id="y7L-dV-FOc"/>
+                            <constraint firstItem="8f6-JX-BSW" firstAttribute="top" secondItem="goj-B3-xaI" secondAttribute="bottom" constant="8" symbolic="YES" id="ySS-BH-amm"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="260"/>
+                    <connections>
+                        <outlet property="collection" destination="mdw-iO-9rP" id="Y9t-Eg-IST"/>
+                        <outlet property="deleteButton" destination="ejB-Jd-pV1" id="y1y-55-2h8"/>
+                        <outlet property="nextKeyboardButton" destination="goj-B3-xaI" id="x4j-FH-bCD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jCn-xc-i8q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="338" y="407"/>
+        </scene>
+    </scenes>
+</document>

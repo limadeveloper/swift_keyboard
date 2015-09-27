@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1CBC7CB1BB79C6A004B14C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBC7CA1BB79C6A004B14C4 /* AppDelegate.swift */; };
+		F1CBC7CD1BB79C6A004B14C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBC7CC1BB79C6A004B14C4 /* ViewController.swift */; };
+		F1CBC7D01BB79C6A004B14C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CBC7CE1BB79C6A004B14C4 /* Main.storyboard */; };
+		F1CBC7D21BB79C6A004B14C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CBC7D11BB79C6A004B14C4 /* Assets.xcassets */; };
+		F1CBC7D51BB79C6A004B14C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CBC7D31BB79C6A004B14C4 /* LaunchScreen.storyboard */; };
+		F1CBC7E01BB79C6A004B14C4 /* KeyboardExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBC7DF1BB79C6A004B14C4 /* KeyboardExtensionTests.swift */; };
+		F1CBC7EB1BB79C6B004B14C4 /* KeyboardExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBC7EA1BB79C6B004B14C4 /* KeyboardExtensionUITests.swift */; };
+		F1CBC7FF1BB79D8E004B14C4 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBC7FE1BB79D8E004B14C4 /* KeyboardViewController.swift */; };
+		F1CBC8031BB79D8E004B14C4 /* limadeveloper.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F1CBC7FC1BB79D8D004B14C4 /* limadeveloper.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F1CBC8091BB79DCA004B14C4 /* limadeveloper.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CBC8081BB79DCA004B14C4 /* limadeveloper.storyboard */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1CBC7DC1BB79C6A004B14C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1CBC7BF1BB79C6A004B14C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1CBC7C61BB79C6A004B14C4;
+			remoteInfo = KeyboardExtension;
+		};
+		F1CBC7E71BB79C6B004B14C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1CBC7BF1BB79C6A004B14C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1CBC7C61BB79C6A004B14C4;
+			remoteInfo = KeyboardExtension;
+		};
+		F1CBC8011BB79D8E004B14C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1CBC7BF1BB79C6A004B14C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1CBC7FB1BB79D8D004B14C4;
+			remoteInfo = limadeveloper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F1CBC8071BB79D8E004B14C4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F1CBC8031BB79D8E004B14C4 /* limadeveloper.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F1CBC7C71BB79C6A004B14C4 /* KeyboardExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CBC7CA1BB79C6A004B14C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1CBC7CC1BB79C6A004B14C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1CBC7CF1BB79C6A004B14C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1CBC7D11BB79C6A004B14C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1CBC7D41BB79C6A004B14C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1CBC7D61BB79C6A004B14C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CBC7DB1BB79C6A004B14C4 /* KeyboardExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CBC7DF1BB79C6A004B14C4 /* KeyboardExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardExtensionTests.swift; sourceTree = "<group>"; };
+		F1CBC7E11BB79C6A004B14C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CBC7E61BB79C6B004B14C4 /* KeyboardExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CBC7EA1BB79C6B004B14C4 /* KeyboardExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardExtensionUITests.swift; sourceTree = "<group>"; };
+		F1CBC7EC1BB79C6B004B14C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CBC7FC1BB79D8D004B14C4 /* limadeveloper.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = limadeveloper.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CBC7FE1BB79D8E004B14C4 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		F1CBC8001BB79D8E004B14C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CBC8081BB79DCA004B14C4 /* limadeveloper.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = limadeveloper.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1CBC7C41BB79C6A004B14C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CBC7D81BB79C6A004B14C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CBC7E31BB79C6A004B14C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CBC7F91BB79D8D004B14C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1CBC7BE1BB79C6A004B14C4 = {
+			isa = PBXGroup;
+			children = (
+				F1CBC7C91BB79C6A004B14C4 /* KeyboardExtension */,
+				F1CBC7FD1BB79D8E004B14C4 /* limadeveloper */,
+				F1CBC7DE1BB79C6A004B14C4 /* KeyboardExtensionTests */,
+				F1CBC7E91BB79C6B004B14C4 /* KeyboardExtensionUITests */,
+				F1CBC7C81BB79C6A004B14C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1CBC7C81BB79C6A004B14C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBC7C71BB79C6A004B14C4 /* KeyboardExtension.app */,
+				F1CBC7DB1BB79C6A004B14C4 /* KeyboardExtensionTests.xctest */,
+				F1CBC7E61BB79C6B004B14C4 /* KeyboardExtensionUITests.xctest */,
+				F1CBC7FC1BB79D8D004B14C4 /* limadeveloper.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1CBC7C91BB79C6A004B14C4 /* KeyboardExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBC7CA1BB79C6A004B14C4 /* AppDelegate.swift */,
+				F1CBC7CC1BB79C6A004B14C4 /* ViewController.swift */,
+				F1CBC7CE1BB79C6A004B14C4 /* Main.storyboard */,
+				F1CBC7D11BB79C6A004B14C4 /* Assets.xcassets */,
+				F1CBC7D31BB79C6A004B14C4 /* LaunchScreen.storyboard */,
+				F1CBC7D61BB79C6A004B14C4 /* Info.plist */,
+			);
+			path = KeyboardExtension;
+			sourceTree = "<group>";
+		};
+		F1CBC7DE1BB79C6A004B14C4 /* KeyboardExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBC7DF1BB79C6A004B14C4 /* KeyboardExtensionTests.swift */,
+				F1CBC7E11BB79C6A004B14C4 /* Info.plist */,
+			);
+			path = KeyboardExtensionTests;
+			sourceTree = "<group>";
+		};
+		F1CBC7E91BB79C6B004B14C4 /* KeyboardExtensionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBC7EA1BB79C6B004B14C4 /* KeyboardExtensionUITests.swift */,
+				F1CBC7EC1BB79C6B004B14C4 /* Info.plist */,
+			);
+			path = KeyboardExtensionUITests;
+			sourceTree = "<group>";
+		};
+		F1CBC7FD1BB79D8E004B14C4 /* limadeveloper */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBC8081BB79DCA004B14C4 /* limadeveloper.storyboard */,
+				F1CBC7FE1BB79D8E004B14C4 /* KeyboardViewController.swift */,
+				F1CBC8001BB79D8E004B14C4 /* Info.plist */,
+			);
+			path = limadeveloper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1CBC7C61BB79C6A004B14C4 /* KeyboardExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CBC7EF1BB79C6B004B14C4 /* Build configuration list for PBXNativeTarget "KeyboardExtension" */;
+			buildPhases = (
+				F1CBC7C31BB79C6A004B14C4 /* Sources */,
+				F1CBC7C41BB79C6A004B14C4 /* Frameworks */,
+				F1CBC7C51BB79C6A004B14C4 /* Resources */,
+				F1CBC8071BB79D8E004B14C4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1CBC8021BB79D8E004B14C4 /* PBXTargetDependency */,
+			);
+			name = KeyboardExtension;
+			productName = KeyboardExtension;
+			productReference = F1CBC7C71BB79C6A004B14C4 /* KeyboardExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1CBC7DA1BB79C6A004B14C4 /* KeyboardExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CBC7F21BB79C6B004B14C4 /* Build configuration list for PBXNativeTarget "KeyboardExtensionTests" */;
+			buildPhases = (
+				F1CBC7D71BB79C6A004B14C4 /* Sources */,
+				F1CBC7D81BB79C6A004B14C4 /* Frameworks */,
+				F1CBC7D91BB79C6A004B14C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1CBC7DD1BB79C6A004B14C4 /* PBXTargetDependency */,
+			);
+			name = KeyboardExtensionTests;
+			productName = KeyboardExtensionTests;
+			productReference = F1CBC7DB1BB79C6A004B14C4 /* KeyboardExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1CBC7E51BB79C6A004B14C4 /* KeyboardExtensionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CBC7F51BB79C6B004B14C4 /* Build configuration list for PBXNativeTarget "KeyboardExtensionUITests" */;
+			buildPhases = (
+				F1CBC7E21BB79C6A004B14C4 /* Sources */,
+				F1CBC7E31BB79C6A004B14C4 /* Frameworks */,
+				F1CBC7E41BB79C6A004B14C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1CBC7E81BB79C6B004B14C4 /* PBXTargetDependency */,
+			);
+			name = KeyboardExtensionUITests;
+			productName = KeyboardExtensionUITests;
+			productReference = F1CBC7E61BB79C6B004B14C4 /* KeyboardExtensionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F1CBC7FB1BB79D8D004B14C4 /* limadeveloper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CBC8061BB79D8E004B14C4 /* Build configuration list for PBXNativeTarget "limadeveloper" */;
+			buildPhases = (
+				F1CBC7F81BB79D8D004B14C4 /* Sources */,
+				F1CBC7F91BB79D8D004B14C4 /* Frameworks */,
+				F1CBC7FA1BB79D8D004B14C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = limadeveloper;
+			productName = limadeveloper;
+			productReference = F1CBC7FC1BB79D8D004B14C4 /* limadeveloper.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1CBC7BF1BB79C6A004B14C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "John Lima";
+				TargetAttributes = {
+					F1CBC7C61BB79C6A004B14C4 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F1CBC7DA1BB79C6A004B14C4 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F1CBC7C61BB79C6A004B14C4;
+					};
+					F1CBC7E51BB79C6A004B14C4 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F1CBC7C61BB79C6A004B14C4;
+					};
+					F1CBC7FB1BB79D8D004B14C4 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = F1CBC7C21BB79C6A004B14C4 /* Build configuration list for PBXProject "KeyboardExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1CBC7BE1BB79C6A004B14C4;
+			productRefGroup = F1CBC7C81BB79C6A004B14C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1CBC7C61BB79C6A004B14C4 /* KeyboardExtension */,
+				F1CBC7DA1BB79C6A004B14C4 /* KeyboardExtensionTests */,
+				F1CBC7E51BB79C6A004B14C4 /* KeyboardExtensionUITests */,
+				F1CBC7FB1BB79D8D004B14C4 /* limadeveloper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1CBC7C51BB79C6A004B14C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CBC7D51BB79C6A004B14C4 /* LaunchScreen.storyboard in Resources */,
+				F1CBC7D21BB79C6A004B14C4 /* Assets.xcassets in Resources */,
+				F1CBC7D01BB79C6A004B14C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CBC7D91BB79C6A004B14C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CBC7E41BB79C6A004B14C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CBC7FA1BB79D8D004B14C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CBC8091BB79DCA004B14C4 /* limadeveloper.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1CBC7C31BB79C6A004B14C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CBC7CD1BB79C6A004B14C4 /* ViewController.swift in Sources */,
+				F1CBC7CB1BB79C6A004B14C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CBC7D71BB79C6A004B14C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CBC7E01BB79C6A004B14C4 /* KeyboardExtensionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CBC7E21BB79C6A004B14C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CBC7EB1BB79C6B004B14C4 /* KeyboardExtensionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CBC7F81BB79D8D004B14C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CBC7FF1BB79D8E004B14C4 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1CBC7DD1BB79C6A004B14C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1CBC7C61BB79C6A004B14C4 /* KeyboardExtension */;
+			targetProxy = F1CBC7DC1BB79C6A004B14C4 /* PBXContainerItemProxy */;
+		};
+		F1CBC7E81BB79C6B004B14C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1CBC7C61BB79C6A004B14C4 /* KeyboardExtension */;
+			targetProxy = F1CBC7E71BB79C6B004B14C4 /* PBXContainerItemProxy */;
+		};
+		F1CBC8021BB79D8E004B14C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1CBC7FB1BB79D8D004B14C4 /* limadeveloper */;
+			targetProxy = F1CBC8011BB79D8E004B14C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1CBC7CE1BB79C6A004B14C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CBC7CF1BB79C6A004B14C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1CBC7D31BB79C6A004B14C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CBC7D41BB79C6A004B14C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1CBC7ED1BB79C6B004B14C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1CBC7EE1BB79C6B004B14C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1CBC7F01BB79C6B004B14C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = KeyboardExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limadeveloper.KeyboardExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1CBC7F11BB79C6B004B14C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = KeyboardExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limadeveloper.KeyboardExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1CBC7F31BB79C6B004B14C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeyboardExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limadeveloper.KeyboardExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardExtension.app/KeyboardExtension";
+			};
+			name = Debug;
+		};
+		F1CBC7F41BB79C6B004B14C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeyboardExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limadeveloper.KeyboardExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardExtension.app/KeyboardExtension";
+			};
+			name = Release;
+		};
+		F1CBC7F61BB79C6B004B14C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeyboardExtensionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limadeveloper.KeyboardExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyboardExtension;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F1CBC7F71BB79C6B004B14C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeyboardExtensionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limadeveloper.KeyboardExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyboardExtension;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		F1CBC8041BB79D8E004B14C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = limadeveloper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limadeveloper.KeyboardExtension.limadeveloper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F1CBC8051BB79D8E004B14C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = limadeveloper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = limadeveloper.KeyboardExtension.limadeveloper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1CBC7C21BB79C6A004B14C4 /* Build configuration list for PBXProject "KeyboardExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CBC7ED1BB79C6B004B14C4 /* Debug */,
+				F1CBC7EE1BB79C6B004B14C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CBC7EF1BB79C6B004B14C4 /* Build configuration list for PBXNativeTarget "KeyboardExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CBC7F01BB79C6B004B14C4 /* Debug */,
+				F1CBC7F11BB79C6B004B14C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CBC7F21BB79C6B004B14C4 /* Build configuration list for PBXNativeTarget "KeyboardExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CBC7F31BB79C6B004B14C4 /* Debug */,
+				F1CBC7F41BB79C6B004B14C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CBC7F51BB79C6B004B14C4 /* Build configuration list for PBXNativeTarget "KeyboardExtensionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CBC7F61BB79C6B004B14C4 /* Debug */,
+				F1CBC7F71BB79C6B004B14C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CBC8061BB79D8E004B14C4 /* Build configuration list for PBXNativeTarget "limadeveloper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CBC8041BB79D8E004B14C4 /* Debug */,
+				F1CBC8051BB79D8E004B14C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1CBC7BF1BB79C6A004B14C4 /* Project object */;
+}
